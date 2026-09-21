@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "truealwayssprint",
+	"version": "${version}",
+	"name": "Auto Sprint",
+	"description": "Automatically sprints while respecting vanilla rules.",
+	"authors": [
+		"ObvGreen"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/truealwayssprint/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"me.obvgreen.client.sprint.TrueAlwaysSprintClient"
+		],
+		"modmenu": [
+			"me.obvgreen.client.modmenu.TrueAlwaysSprintMenuIntegration"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

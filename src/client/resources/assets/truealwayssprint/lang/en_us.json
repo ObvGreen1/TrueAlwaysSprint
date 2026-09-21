@@ -1,0 +1,27 @@
+{
+  "config.truealwayssprint.title": "Auto Sprint Config",
+  "config.truealwayssprint.category.general": "General",
+  "config.truealwayssprint.category.notifications": "Notifications",
+  "config.truealwayssprint.option.enabled": "Enable Auto Sprint",
+  "config.truealwayssprint.option.enabled.tooltip": "When on, you always sprint while moving forward.",
+  "config.truealwayssprint.option.toggleKey.enabled": "Enable Toggle Keybind",
+  "config.truealwayssprint.option.toggleKey.enabled.tooltip": "Whether the toggle keybind works in-game.",
+  "config.truealwayssprint.option.toggleKey.binding": "Toggle Sprint Key",
+  "config.truealwayssprint.option.toggleKey.binding.tooltip": "Press this key while playing to toggle auto sprint on and off. This keybind is also listed under Vanilla Controls, in the \"Auto Sprint\" category.",
+  "config.truealwayssprint.option.toggleKey.description": "Pick a key above (or in Controls -> Auto Sprint) and press it in-game to toggle auto sprint.",
+  "config.truealwayssprint.option.notifications": "Enable Notifications",
+  "config.truealwayssprint.option.notifications.tooltip": "Show a notification when auto sprint is toggled on or off.",
+  "config.truealwayssprint.option.duration": "Notification Duration",
+  "config.truealwayssprint.option.duration.tooltip": "How long the notification stays visible.",
+  "config.truealwayssprint.option.duration.value": "%1$s seconds",
+  "config.truealwayssprint.option.sound": "Play Notification Sound",
+  "config.truealwayssprint.option.sound.tooltip": "Play a soft sound when auto sprint is toggled.",
+
+  "key.truealwayssprint.toggle": "Toggle Auto Sprint",
+  "key.category.truealwayssprint.keybindings": "Auto Sprint",
+
+  "toast.truealwayssprint.title": "Auto Sprint",
+  "toast.truealwayssprint.enabled": "Sprint Enabled",
+  "toast.truealwayssprint.disabled": "Sprint Disabled",
+  "toast.truealwayssprint.boundTo": "Bound to %1$s"
+}
