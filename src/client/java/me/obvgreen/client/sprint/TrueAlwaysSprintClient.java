@@ -21,12 +21,11 @@ public class TrueAlwaysSprintClient implements ClientModInitializer {
 
 	private void onClientTick(MinecraftClient client) {
 		handleToggleKey();
+		ModConfig.setEnabled(true);
 		if (client.player == null || client.currentScreen != null) {
 			return;
 		}
-		if (ModConfig.isEnabled()) {
-			client.options.sprintKey.setPressed(true);
-		}
+		client.options.sprintKey.setPressed(true);
 	}
 
 	private void handleToggleKey() {
